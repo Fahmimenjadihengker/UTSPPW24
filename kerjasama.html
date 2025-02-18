@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Kerjasama</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<!--Nama    : Muhammad Fahmi Aziz Sanjeeda
+    Nim     :23.12.2973
+    kelas   :23S1SI04
+    Tanggal : 15-16 mei 2024-->
+<body>
+    <div class="navigasi">
+        <div class="logo">
+            <h2>Portofolio Saya</h2>
+        </div>
+    
+        <div class="Menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="kerjasama.html">Kerjasama</a></li>
+                <li><a href="https://www.instagram.com/fahmee.mii/">Instagram</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </div>
+    </div>
+   <div class="isi">
+    <section class="bingkai">
+        <header>Form Penawaran kerjasama</header>
+        <form action="/action_page.php" method="POST">
+            <label for="name">Nama</label>
+            <input type="text" id="name" name="nama" placeholder="nama anda..">
+            <label for="wa">Nomor WhatsApp</label>
+            <input type="number" id="wa" name="nowa">
+            <label for="eml">Email</label>
+            <input type="email" id="eml" name="email">
+            <label for="almt">Alamat</label>
+            <textarea name="alamat" id="almt" ></textarea>
+            <label for="tgl">Tanggal Pelaksanaan</label>
+            <input type="datetime-local" id="tgl" name="tanggal">
+            <label for="foto">Upload foto Anda</label>
+            <input type="file" id="foto" name="foto" accept="image/*">
+            <label for="agama">Domisili</label>
+            <select name="Domisili">
+                <option value="pilih" selected>-pilih Domisili-</option>
+                <option value="Kasihan">Kasihan</option>
+                <option value="Gamping">Gamping</option>z
+                <option value="Godean">Godean</option>
+                <option value="Condongcatur">Condongcatur</option>
+            </select>
+           bidang Kerjasama<br>
+            <input type="checkbox" name="Management" value="Management">
+            <label>Management</label><br>
+            <input type="checkbox" name="Multimedia" value="Multimedia">
+            <label>Multimedia</label><br>
+            <p><br>Jenis Kelamin : 
+            <input type="radio" name="jeniskel" value="p" checked> Pria
+            <input type="radio" name="jeniskel" value="w"> Wanita</p><br>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </form>
+    </section>
+   </div>
+</body>
+</html>
